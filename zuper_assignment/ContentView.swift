@@ -1,9 +1,4 @@
-//
-//  ContentView.swift
-//  zuper_assignment
-//
-//  Created by Manish Kumar on 11/07/25.
-//
+
 
 import SwiftUI
 

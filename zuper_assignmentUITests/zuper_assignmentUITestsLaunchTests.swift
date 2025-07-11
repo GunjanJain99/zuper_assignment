@@ -1,9 +1,4 @@
-//
-//  zuper_assignmentUITestsLaunchTests.swift
-//  zuper_assignmentUITests
-//
-//  Created by Manish Kumar on 11/07/25.
-//
+
 
 import XCTest
 

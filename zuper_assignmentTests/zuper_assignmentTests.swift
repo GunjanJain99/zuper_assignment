@@ -1,9 +1,4 @@
-//
-//  zuper_assignmentTests.swift
-//  zuper_assignmentTests
-//
-//  Created by Manish Kumar on 11/07/25.
-//
+
 
 import Testing
 @testable import zuper_assignment

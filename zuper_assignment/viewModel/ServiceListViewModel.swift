@@ -23,9 +23,8 @@ class ServiceListViewModel: ObservableObject {
     }
 
     private func setupBindings() {
-        // 🧠 Debounced search logic using Combine
         $searchText
-            .receive(on: DispatchQueue.main) // ✅ Force on main queue
+            .receive(on: DispatchQueue.main)
             .debounce(for: .milliseconds(300), scheduler: RunLoop.main)
             .removeDuplicates()
             .sink { [weak self] searchTerm in
